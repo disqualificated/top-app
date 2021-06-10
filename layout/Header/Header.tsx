@@ -1,11 +1,11 @@
-import styles from './Sidebar.module.css';
+import styles from './Header.module.css';
 import cn from 'classnames';
-import {SidebarProps} from "./Sidebar.props";
+import {HeaderProps} from "./Header.props";
 
-export const Sidebar = ({ ...props }: SidebarProps): JSX.Element => {
+export const Header = ({ ...props }: HeaderProps): JSX.Element => {
     return (
         <div {...props}>
-            Sidebar
+            Header
         </div>
     );
 };
